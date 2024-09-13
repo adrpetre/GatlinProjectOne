@@ -1,0 +1,85 @@
+[0m[[0m[31merror[0m] [0m[0merror while loading package, class file 'C:\Users\adrian.petre01\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\gatling\gatling-app\3.9.0\gatling-app-3.9.0.jar(io/gatling/app/package.class)' is broken[0m
+[0m[[0m[31merror[0m] [0m[0m(class java.lang.RuntimeException/error reading Scala signature of package.class: Scala signature package has wrong version[0m
+[0m[[0m[31merror[0m] [0m[0m expected: 5.0[0m
+[0m[[0m[31merror[0m] [0m[0m found: 5.2 in package.class)[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading GatlingPropertiesBuilder, class file 'C:\Users\adrian.petre01\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\gatling\gatling-core\3.9.0\gatling-core-3.9.0.jar(io/gatling/core/config/GatlingPropertiesBuilder.class)' is broken[0m
+[0m[[0m[31merror[0m] [0m[0m(class java.lang.RuntimeException/error reading Scala signature of GatlingPropertiesBuilder.class: Scala signature GatlingPropertiesBuilder has wrong version[0m
+[0m[[0m[31merror[0m] [0m[0m expected: 5.0[0m
+[0m[[0m[31merror[0m] [0m[0m found: 5.2 in GatlingPropertiesBuilder.class)[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\Engine.scala:6:15: io.gatling.core.config.GatlingPropertiesBuilder does not have a constructor[0m
+[0m[[0m[31merror[0m] [0m[0m  val props = new GatlingPropertiesBuilder()[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Gatling, class file 'C:\Users\adrian.petre01\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\gatling\gatling-app\3.9.0\gatling-app-3.9.0.jar(io/gatling/app/Gatling.class)' is broken[0m
+[0m[[0m[31merror[0m] [0m[0m(class java.lang.RuntimeException/error reading Scala signature of Gatling.class: Scala signature Gatling has wrong version[0m
+[0m[[0m[31merror[0m] [0m[0m expected: 5.0[0m
+[0m[[0m[31merror[0m] [0m[0m found: 5.2 in Gatling.class)[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading package, class file 'C:\Users\adrian.petre01\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\gatling\gatling-recorder\3.9.0\gatling-recorder-3.9.0.jar(io/gatling/recorder/package.class)' is broken[0m
+[0m[[0m[31merror[0m] [0m[0m(class java.lang.RuntimeException/error reading Scala signature of package.class: Scala signature package has wrong version[0m
+[0m[[0m[31merror[0m] [0m[0m expected: 5.0[0m
+[0m[[0m[31merror[0m] [0m[0m found: 5.2 in package.class)[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading RecorderPropertiesBuilder, class file 'C:\Users\adrian.petre01\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\gatling\gatling-recorder\3.9.0\gatling-recorder-3.9.0.jar(io/gatling/recorder/config/RecorderPropertiesBuilder.class)' is broken[0m
+[0m[[0m[31merror[0m] [0m[0m(class java.lang.RuntimeException/error reading Scala signature of RecorderPropertiesBuilder.class: Scala signature RecorderPropertiesBuilder has wrong version[0m
+[0m[[0m[31merror[0m] [0m[0m expected: 5.0[0m
+[0m[[0m[31merror[0m] [0m[0m found: 5.2 in RecorderPropertiesBuilder.class)[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\Recorder.scala:6:15: io.gatling.recorder.config.RecorderPropertiesBuilder does not have a constructor[0m
+[0m[[0m[31merror[0m] [0m[0m  val props = new RecorderPropertiesBuilder()[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading GatlingRecorder, class file 'C:\Users\adrian.petre01\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\gatling\gatling-recorder\3.9.0\gatling-recorder-3.9.0.jar(io/gatling/recorder/GatlingRecorder.class)' is broken[0m
+[0m[[0m[31merror[0m] [0m[0m(class java.lang.RuntimeException/error reading Scala signature of GatlingRecorder.class: Scala signature GatlingRecorder has wrong version[0m
+[0m[[0m[31merror[0m] [0m[0m expected: 5.0[0m
+[0m[[0m[31merror[0m] [0m[0m found: 5.2 in GatlingRecorder.class)[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Predef, class file 'C:\Users\adrian.petre01\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\gatling\gatling-core\3.9.0\gatling-core-3.9.0.jar(io/gatling/core/Predef.class)' is broken[0m
+[0m[[0m[31merror[0m] [0m[0m(class java.lang.RuntimeException/error reading Scala signature of Predef.class: Scala signature Predef has wrong version[0m
+[0m[[0m[31merror[0m] [0m[0m expected: 5.0[0m
+[0m[[0m[31merror[0m] [0m[0m found: 5.2 in Predef.class)[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading package, class file 'C:\Users\adrian.petre01\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\gatling\gatling-http\3.9.0\gatling-http-3.9.0.jar(io/gatling/http/package.class)' is broken[0m
+[0m[[0m[31merror[0m] [0m[0m(class java.lang.RuntimeException/error reading Scala signature of package.class: Scala signature package has wrong version[0m
+[0m[[0m[31merror[0m] [0m[0m expected: 5.0[0m
+[0m[[0m[31merror[0m] [0m[0m found: 5.2 in package.class)[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Predef, class file 'C:\Users\adrian.petre01\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\gatling\gatling-http\3.9.0\gatling-http-3.9.0.jar(io/gatling/http/Predef.class)' is broken[0m
+[0m[[0m[31merror[0m] [0m[0m(class java.lang.RuntimeException/error reading Scala signature of Predef.class: Scala signature Predef has wrong version[0m
+[0m[[0m[31merror[0m] [0m[0m expected: 5.0[0m
+[0m[[0m[31merror[0m] [0m[0m found: 5.2 in Predef.class)[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:8:41: not found: type Simulation[0m
+[0m[[0m[31merror[0m] [0m[0mclass TokenGenerationSimulation extends Simulation {[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:11:22: not found: value http[0m
+[0m[[0m[31merror[0m] [0m[0m  val httpProtocol = http[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:18:13: not found: value scenario[0m
+[0m[[0m[31merror[0m] [0m[0m  val scn = scenario("Generate Multiple Tokens and Use One")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:21:7: not found: value http[0m
+[0m[[0m[31merror[0m] [0m[0m      http("Get First Token")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:24:15: not found: value StringBody[0m
+[0m[[0m[31merror[0m] [0m[0m        .body(StringBody("""{"username": "POLARIS_API_CALLER_APP", "password": "r8XrVJquf9"}""")).asJson[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:25:16: not found: value jsonPath[0m
+[0m[[0m[31merror[0m] [0m[0m        .check(jsonPath("$.access_token").saveAs("firstToken"))[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:29:7: not found: value http[0m
+[0m[[0m[31merror[0m] [0m[0m      http("Get Second Token")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:32:15: not found: value StringBody[0m
+[0m[[0m[31merror[0m] [0m[0m        .body(StringBody([0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:42:16: not found: value jsonPath[0m
+[0m[[0m[31merror[0m] [0m[0m        .check(jsonPath("$.access_token").saveAs("secondToken"))[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:46:7: not found: value http[0m
+[0m[[0m[31merror[0m] [0m[0m      http("Get Third Token")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:49:15: not found: value StringBody[0m
+[0m[[0m[31merror[0m] [0m[0m        .body(StringBody([0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:55:16: not found: value jsonPath[0m
+[0m[[0m[31merror[0m] [0m[0m        .check(jsonPath("$.token").saveAs("thirdToken")) // Adjust the JSON path if needed[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:59:7: not found: value http[0m
+[0m[[0m[31merror[0m] [0m[0m      http("Use Third Token")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\adrian.petre01\Gatlin\GatlingProjectOne\src\test\scala\com\example\simulations\TokenGenerationSimulation.scala:68:3: not found: value setUp[0m
+[0m[[0m[31merror[0m] [0m[0m  setUp([0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m25 errors found[0m

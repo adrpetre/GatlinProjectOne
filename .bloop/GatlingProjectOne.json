@@ -1,0 +1,1470 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "GatlingProjectOne",
+        "directory": "C:\\Users\\adrian.petre01\\Gatlin\\GatlingProjectOne",
+        "workspaceDir": "C:\\Users\\adrian.petre01\\Gatlin\\GatlingProjectOne",
+        "sources": [
+            
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\adrian.petre01\\Gatlin\\GatlingProjectOne\\target\\classes",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\highcharts\\gatling-charts-highcharts\\3.1.2\\gatling-charts-highcharts-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-charts\\3.1.2\\gatling-charts-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\tdunning\\t-digest\\3.1\\t-digest-3.1.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-http-client\\3.1.2\\gatling-http-client-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-netty-util\\3.1.2\\gatling-netty-util-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-buffer\\4.1.36.Final\\netty-buffer-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-handler\\4.1.36.Final\\netty-handler-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-handler-proxy\\4.1.36.Final\\netty-handler-proxy-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-socks\\4.1.36.Final\\netty-codec-socks-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-resolver-dns\\4.1.36.Final\\netty-resolver-dns-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-resolver\\4.1.36.Final\\netty-resolver-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-dns\\4.1.36.Final\\netty-codec-dns-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-transport-native-epoll\\4.1.36.Final\\netty-transport-native-epoll-4.1.36.Final-linux-x86_64.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-transport-native-unix-common\\4.1.36.Final\\netty-transport-native-unix-common-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-http2\\4.1.36.Final\\netty-codec-http2-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-tcnative-boringssl-static\\2.0.25.Final\\netty-tcnative-boringssl-static-2.0.25.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\sun\\activation\\javax.activation\\1.2.0\\javax.activation-1.2.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\slf4j\\slf4j-api\\1.7.26\\slf4j-api-1.7.26.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\scala-logging\\scala-logging_2.12\\3.9.2\\scala-logging_2.12-3.9.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\ch\\qos\\logback\\logback-classic\\1.2.3\\logback-classic-1.2.3.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\ch\\qos\\logback\\logback-core\\1.2.3\\logback-core-1.2.3.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-commons\\3.1.2\\gatling-commons-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\scala-reflect\\2.12.8\\scala-reflect-2.12.8.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\config\\1.3.4\\config-1.3.4.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\dongxiguo\\fastring_2.12\\1.0.0\\fastring_2.12-1.0.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\suzaku\\boopickle_2.12\\1.3.1\\boopickle_2.12-1.3.1.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\typelevel\\spire-macros_2.12\\0.16.1\\spire-macros_2.12-0.16.1.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-collection-compat_2.12\\0.3.0\\scala-collection-compat_2.12-0.3.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\softwaremill\\quicklens\\quicklens_2.12\\1.4.12\\quicklens_2.12-1.4.12.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-java8-compat_2.12\\0.9.0\\scala-java8-compat_2.12-0.9.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\eatthepath\\fast-uuid\\0.1\\fast-uuid-0.1.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-app\\3.1.2\\gatling-app-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-core\\3.1.2\\gatling-core-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\akka\\akka-slf4j_2.12\\2.5.22\\akka-slf4j_2.12-2.5.22.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\simpleflatmapper\\lightning-csv\\6.7.0\\lightning-csv-6.7.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\simpleflatmapper\\sfm-util\\6.7.0\\sfm-util-6.7.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\github\\ben-manes\\caffeine\\caffeine\\2.7.0\\caffeine-2.7.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\checkerframework\\checker-qual\\2.6.0\\checker-qual-2.6.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\google\\errorprone\\error_prone_annotations\\2.3.3\\error_prone_annotations-2.3.3.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\pebbletemplates\\pebble\\3.0.9\\pebble-3.0.9.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\unbescape\\unbescape\\1.1.6.RELEASE\\unbescape-1.1.6.RELEASE.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-parser-combinators_2.12\\1.1.2\\scala-parser-combinators_2.12-1.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\github\\scopt\\scopt_2.12\\3.7.1\\scopt_2.12-3.7.1.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\jsonpath_2.12\\0.6.14\\jsonpath_2.12-0.6.14.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-json\\5.0.13\\jodd-json-5.0.13.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-bean\\5.0.13\\jodd-bean-5.0.13.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-core\\5.0.13\\jodd-core-5.0.13.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\net\\sf\\saxon\\Saxon-HE\\9.9.1-2\\Saxon-HE-9.9.1-2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\ibm\\icu\\icu4j\\63.1\\icu4j-63.1.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-lagarto\\5.0.13\\jodd-lagarto-5.0.13.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-log\\5.0.13\\jodd-log-5.0.13.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-http\\3.1.2\\gatling-http-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-xml_2.12\\1.2.0\\scala-xml_2.12-1.2.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-jms\\3.1.2\\gatling-jms-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\apache\\geronimo\\specs\\geronimo-jms_1.1_spec\\1.1.1\\geronimo-jms_1.1_spec-1.1.1.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-jdbc\\3.1.2\\gatling-jdbc-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-redis\\3.1.2\\gatling-redis-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\net\\debasishg\\redisclient_2.12\\3.9\\redisclient_2.12-3.9.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\apache\\commons\\commons-pool2\\2.6.0\\commons-pool2-2.6.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-graphite\\3.1.2\\gatling-graphite-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\hdrhistogram\\HdrHistogram\\2.1.11\\HdrHistogram-2.1.11.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-recorder\\3.1.2\\gatling-recorder-3.1.2.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-swing_2.12\\2.1.1\\scala-swing_2.12-2.1.1.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.9.8\\jackson-databind-2.9.8.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.9.0\\jackson-annotations-2.9.0.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.9.8\\jackson-core-2.9.8.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-jackson_2.12\\3.6.5\\json4s-jackson_2.12-3.6.5.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-core_2.12\\3.6.5\\json4s-core_2.12-3.6.5.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-ast_2.12\\3.6.5\\json4s-ast_2.12-3.6.5.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-scalap_2.12\\3.6.5\\json4s-scalap_2.12-3.6.5.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\bouncycastle\\bcpkix-jdk15on\\1.61\\bcpkix-jdk15on-1.61.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\bouncycastle\\bcprov-jdk15on\\1.61\\bcprov-jdk15on-1.61.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-http\\4.1.36.Final\\netty-codec-http-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-common\\4.1.36.Final\\netty-common-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-transport\\4.1.36.Final\\netty-transport-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec\\4.1.36.Final\\netty-codec-4.1.36.Final.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\akka\\akka-actor_2.12\\2.5.22\\akka-actor_2.12-2.5.22.jar",
+            "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8.jar"
+        ],
+        "out": "C:\\Users\\adrian.petre01\\Gatlin\\GatlingProjectOne\\target",
+        "classesDir": "C:\\Users\\adrian.petre01\\Gatlin\\GatlingProjectOne\\target\\classes",
+        "resources": [
+            "C:\\Users\\adrian.petre01\\Gatlin\\GatlingProjectOne\\src\\main\\resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.8",
+            "options": [
+                "-target:jvm-1.8"
+            ],
+            "jars": [
+                "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8.jar",
+                "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\scala-compiler\\2.12.8\\scala-compiler-2.12.8.jar",
+                "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-xml_2.12\\1.0.6\\scala-xml_2.12-1.0.6.jar",
+                "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\scala-reflect\\2.12.8\\scala-reflect-2.12.8.jar",
+                "C:\\Users\\adrian.petre01\\.m2\\repository\\jline\\jline\\2.14.6\\jline-2.14.6.jar"
+            ],
+            "setup": {
+                "order": "java->scala",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "1.8",
+                "-source",
+                "1.8",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Zulu\\zulu-21",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-commons",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-commons",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-commons\\3.1.2\\gatling-commons-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-commons",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-commons\\3.1.2\\gatling-commons-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.12",
+                    "version": "0.9.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-java8-compat_2.12\\0.9.0\\scala-java8-compat_2.12-0.9.0.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-java8-compat_2.12\\0.9.0\\scala-java8-compat_2.12-0.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.activation",
+                    "name": "javax.activation",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "javax.activation",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\sun\\activation\\javax.activation\\1.2.0\\javax.activation-1.2.0.jar"
+                        },
+                        {
+                            "name": "javax.activation",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\sun\\activation\\javax.activation\\1.2.0\\javax.activation-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver-dns",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver-dns",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-resolver-dns\\4.1.36.Final\\netty-resolver-dns-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver-dns",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-resolver-dns\\4.1.36.Final\\netty-resolver-dns-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.simpleflatmapper",
+                    "name": "lightning-csv",
+                    "version": "6.7.0",
+                    "artifacts": [
+                        {
+                            "name": "lightning-csv",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\simpleflatmapper\\lightning-csv\\6.7.0\\lightning-csv-6.7.0.jar"
+                        },
+                        {
+                            "name": "lightning-csv",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\simpleflatmapper\\lightning-csv\\6.7.0\\lightning-csv-6.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.scala-logging",
+                    "name": "scala-logging_2.12",
+                    "version": "3.9.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-logging_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\scala-logging\\scala-logging_2.12\\3.9.2\\scala-logging_2.12-3.9.2.jar"
+                        },
+                        {
+                            "name": "scala-logging_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\scala-logging\\scala-logging_2.12\\3.9.2\\scala-logging_2.12-3.9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-http-client",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-http-client",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-http-client\\3.1.2\\gatling-http-client-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-http-client",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-http-client\\3.1.2\\gatling-http-client-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thoughtworks.paranamer",
+                    "name": "paranamer",
+                    "version": "2.8",
+                    "artifacts": [
+                        {
+                            "name": "paranamer",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\thoughtworks\\paranamer\\paranamer\\2.8\\paranamer-2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-pool2",
+                    "version": "2.6.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-pool2",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\apache\\commons\\commons-pool2\\2.6.0\\commons-pool2-2.6.0.jar"
+                        },
+                        {
+                            "name": "commons-pool2",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\apache\\commons\\commons-pool2\\2.6.0\\commons-pool2-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.tdunning",
+                    "name": "t-digest",
+                    "version": "3.1",
+                    "artifacts": [
+                        {
+                            "name": "t-digest",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\tdunning\\t-digest\\3.1\\t-digest-3.1.jar"
+                        },
+                        {
+                            "name": "t-digest",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\tdunning\\t-digest\\3.1\\t-digest-3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-xml_2.12\\1.2.0\\scala-xml_2.12-1.2.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-xml_2.12\\1.2.0\\scala-xml_2.12-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "jsonpath_2.12",
+                    "version": "0.6.14",
+                    "artifacts": [
+                        {
+                            "name": "jsonpath_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\jsonpath_2.12\\0.6.14\\jsonpath_2.12-0.6.14.jar"
+                        },
+                        {
+                            "name": "jsonpath_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\jsonpath_2.12\\0.6.14\\jsonpath_2.12-0.6.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.debasishg",
+                    "name": "redisclient_2.12",
+                    "version": "3.9",
+                    "artifacts": [
+                        {
+                            "name": "redisclient_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\net\\debasishg\\redisclient_2.12\\3.9\\redisclient_2.12-3.9.jar"
+                        },
+                        {
+                            "name": "redisclient_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\net\\debasishg\\redisclient_2.12\\3.9\\redisclient_2.12-3.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "2.6.0",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\checkerframework\\checker-qual\\2.6.0\\checker-qual-2.6.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\checkerframework\\checker-qual\\2.6.0\\checker-qual-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-ast_2.12",
+                    "version": "3.6.5",
+                    "artifacts": [
+                        {
+                            "name": "json4s-ast_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-ast_2.12\\3.6.5\\json4s-ast_2.12-3.6.5.jar"
+                        },
+                        {
+                            "name": "json4s-ast_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-ast_2.12\\3.6.5\\json4s-ast_2.12-3.6.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.12",
+                    "version": "2.5.22",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\akka\\akka-actor_2.12\\2.5.22\\akka-actor_2.12-2.5.22.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\akka\\akka-actor_2.12\\2.5.22\\akka-actor_2.12-2.5.22-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-redis",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-redis",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-redis\\3.1.2\\gatling-redis-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-redis",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-redis\\3.1.2\\gatling-redis-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-transport\\4.1.36.Final\\netty-transport-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-transport\\4.1.36.Final\\netty-transport-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.3.3",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\google\\errorprone\\error_prone_annotations\\2.3.3\\error_prone_annotations-2.3.3.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\google\\errorprone\\error_prone_annotations\\2.3.3\\error_prone_annotations-2.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.quicklens",
+                    "name": "quicklens_2.12",
+                    "version": "1.4.12",
+                    "artifacts": [
+                        {
+                            "name": "quicklens_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\softwaremill\\quicklens\\quicklens_2.12\\1.4.12\\quicklens_2.12-1.4.12.jar"
+                        },
+                        {
+                            "name": "quicklens_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\softwaremill\\quicklens\\quicklens_2.12\\1.4.12\\quicklens_2.12-1.4.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.ibm.icu",
+                    "name": "icu4j",
+                    "version": "63.1",
+                    "artifacts": [
+                        {
+                            "name": "icu4j",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\ibm\\icu\\icu4j\\63.1\\icu4j-63.1.jar"
+                        },
+                        {
+                            "name": "icu4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\ibm\\icu\\icu4j\\63.1\\icu4j-63.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec\\4.1.36.Final\\netty-codec-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec\\4.1.36.Final\\netty-codec-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sf.saxon",
+                    "name": "Saxon-HE",
+                    "version": "9.9.1-2",
+                    "artifacts": [
+                        {
+                            "name": "Saxon-HE",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\net\\sf\\saxon\\Saxon-HE\\9.9.1-2\\Saxon-HE-9.9.1-2.jar"
+                        },
+                        {
+                            "name": "Saxon-HE",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\net\\sf\\saxon\\Saxon-HE\\9.9.1-2\\Saxon-HE-9.9.1-2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-http\\4.1.36.Final\\netty-codec-http-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-http\\4.1.36.Final\\netty-codec-http-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-socks",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-socks",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-socks\\4.1.36.Final\\netty-codec-socks-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-socks",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-socks\\4.1.36.Final\\netty-codec-socks-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jodd",
+                    "name": "jodd-bean",
+                    "version": "5.0.13",
+                    "artifacts": [
+                        {
+                            "name": "jodd-bean",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-bean\\5.0.13\\jodd-bean-5.0.13.jar"
+                        },
+                        {
+                            "name": "jodd-bean",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-bean\\5.0.13\\jodd-bean-5.0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.unbescape",
+                    "name": "unbescape",
+                    "version": "1.1.6.RELEASE",
+                    "artifacts": [
+                        {
+                            "name": "unbescape",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\unbescape\\unbescape\\1.1.6.RELEASE\\unbescape-1.1.6.RELEASE.jar"
+                        },
+                        {
+                            "name": "unbescape",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\unbescape\\unbescape\\1.1.6.RELEASE\\unbescape-1.1.6.RELEASE-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.12",
+                    "version": "0.3.0",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-collection-compat_2.12\\0.3.0\\scala-collection-compat_2.12-0.3.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-collection-compat_2.12\\0.3.0\\scala-collection-compat_2.12-0.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-scalap_2.12",
+                    "version": "3.6.5",
+                    "artifacts": [
+                        {
+                            "name": "json4s-scalap_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-scalap_2.12\\3.6.5\\json4s-scalap_2.12-3.6.5.jar"
+                        },
+                        {
+                            "name": "json4s-scalap_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-scalap_2.12\\3.6.5\\json4s-scalap_2.12-3.6.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\ch\\qos\\logback\\logback-core\\1.2.3\\logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\ch\\qos\\logback\\logback-core\\1.2.3\\logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-slf4j_2.12",
+                    "version": "2.5.22",
+                    "artifacts": [
+                        {
+                            "name": "akka-slf4j_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\akka\\akka-slf4j_2.12\\2.5.22\\akka-slf4j_2.12-2.5.22.jar"
+                        },
+                        {
+                            "name": "akka-slf4j_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\akka\\akka-slf4j_2.12\\2.5.22\\akka-slf4j_2.12-2.5.22-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcprov-jdk15on",
+                    "version": "1.61",
+                    "artifacts": [
+                        {
+                            "name": "bcprov-jdk15on",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\bouncycastle\\bcprov-jdk15on\\1.61\\bcprov-jdk15on-1.61.jar"
+                        },
+                        {
+                            "name": "bcprov-jdk15on",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\bouncycastle\\bcprov-jdk15on\\1.61\\bcprov-jdk15on-1.61-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.8",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\scala-library\\2.12.8\\scala-library-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.9.0",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.9.0\\jackson-annotations-2.9.0.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.9.0\\jackson-annotations-2.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-jms",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-jms",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-jms\\3.1.2\\gatling-jms-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-jms",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-jms\\3.1.2\\gatling-jms-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.9.8",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.9.8\\jackson-core-2.9.8.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.9.8\\jackson-core-2.9.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bouncycastle",
+                    "name": "bcpkix-jdk15on",
+                    "version": "1.61",
+                    "artifacts": [
+                        {
+                            "name": "bcpkix-jdk15on",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\bouncycastle\\bcpkix-jdk15on\\1.61\\bcpkix-jdk15on-1.61.jar"
+                        },
+                        {
+                            "name": "bcpkix-jdk15on",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\bouncycastle\\bcpkix-jdk15on\\1.61\\bcpkix-jdk15on-1.61-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-http",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-http",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-http\\3.1.2\\gatling-http-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-http",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-http\\3.1.2\\gatling-http-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-transport-native-unix-common\\4.1.36.Final\\netty-transport-native-unix-common-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-transport-native-unix-common\\4.1.36.Final\\netty-transport-native-unix-common-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-buffer\\4.1.36.Final\\netty-buffer-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-buffer\\4.1.36.Final\\netty-buffer-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling.highcharts",
+                    "name": "gatling-charts-highcharts",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-charts-highcharts",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\highcharts\\gatling-charts-highcharts\\3.1.2\\gatling-charts-highcharts-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-charts-highcharts",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\highcharts\\gatling-charts-highcharts\\3.1.2\\gatling-charts-highcharts-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jodd",
+                    "name": "jodd-json",
+                    "version": "5.0.13",
+                    "artifacts": [
+                        {
+                            "name": "jodd-json",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-json\\5.0.13\\jodd-json-5.0.13.jar"
+                        },
+                        {
+                            "name": "jodd-json",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-json\\5.0.13\\jodd-json-5.0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-netty-util",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-netty-util",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-netty-util\\3.1.2\\gatling-netty-util-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-netty-util",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-netty-util\\3.1.2\\gatling-netty-util-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "spire-macros_2.12",
+                    "version": "0.16.1",
+                    "artifacts": [
+                        {
+                            "name": "spire-macros_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\typelevel\\spire-macros_2.12\\0.16.1\\spire-macros_2.12-0.16.1.jar"
+                        },
+                        {
+                            "name": "spire-macros_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\typelevel\\spire-macros_2.12\\0.16.1\\spire-macros_2.12-0.16.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http2",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http2",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-http2\\4.1.36.Final\\netty-codec-http2-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http2",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-http2\\4.1.36.Final\\netty-codec-http2-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jodd",
+                    "name": "jodd-lagarto",
+                    "version": "5.0.13",
+                    "artifacts": [
+                        {
+                            "name": "jodd-lagarto",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-lagarto\\5.0.13\\jodd-lagarto-5.0.13.jar"
+                        },
+                        {
+                            "name": "jodd-lagarto",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-lagarto\\5.0.13\\jodd-lagarto-5.0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.simpleflatmapper",
+                    "name": "sfm-util",
+                    "version": "6.7.0",
+                    "artifacts": [
+                        {
+                            "name": "sfm-util",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\simpleflatmapper\\sfm-util\\6.7.0\\sfm-util-6.7.0.jar"
+                        },
+                        {
+                            "name": "sfm-util",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\simpleflatmapper\\sfm-util\\6.7.0\\sfm-util-6.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.26",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\slf4j\\slf4j-api\\1.7.26\\slf4j-api-1.7.26.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\slf4j\\slf4j-api\\1.7.26\\slf4j-api-1.7.26-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-jdbc",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-jdbc",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-jdbc\\3.1.2\\gatling-jdbc-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-jdbc",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-jdbc\\3.1.2\\gatling-jdbc-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-app",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-app",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-app\\3.1.2\\gatling-app-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-app",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-app\\3.1.2\\gatling-app-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.3.4",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\config\\1.3.4\\config-1.3.4.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\typesafe\\config\\1.3.4\\config-1.3.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ben-manes.caffeine",
+                    "name": "caffeine",
+                    "version": "2.7.0",
+                    "artifacts": [
+                        {
+                            "name": "caffeine",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\github\\ben-manes\\caffeine\\caffeine\\2.7.0\\caffeine-2.7.0.jar"
+                        },
+                        {
+                            "name": "caffeine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\github\\ben-manes\\caffeine\\caffeine\\2.7.0\\caffeine-2.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.8",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\scala-reflect\\2.12.8\\scala-reflect-2.12.8.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\scala-reflect\\2.12.8\\scala-reflect-2.12.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-resolver\\4.1.36.Final\\netty-resolver-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-resolver\\4.1.36.Final\\netty-resolver-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-recorder",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-recorder",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-recorder\\3.1.2\\gatling-recorder-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-recorder",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-recorder\\3.1.2\\gatling-recorder-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.pebbletemplates",
+                    "name": "pebble",
+                    "version": "3.0.9",
+                    "artifacts": [
+                        {
+                            "name": "pebble",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\pebbletemplates\\pebble\\3.0.9\\pebble-3.0.9.jar"
+                        },
+                        {
+                            "name": "pebble",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\pebbletemplates\\pebble\\3.0.9\\pebble-3.0.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.2.3",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\ch\\qos\\logback\\logback-classic\\1.2.3\\logback-classic-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\ch\\qos\\logback\\logback-classic\\1.2.3\\logback-classic-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-tcnative-boringssl-static",
+                    "version": "2.0.25.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-tcnative-boringssl-static",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-tcnative-boringssl-static\\2.0.25.Final\\netty-tcnative-boringssl-static-2.0.25.Final.jar"
+                        },
+                        {
+                            "name": "netty-tcnative-boringssl-static",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-tcnative-boringssl-static\\2.0.25.Final\\netty-tcnative-boringssl-static-2.0.25.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.geronimo.specs",
+                    "name": "geronimo-jms_1.1_spec",
+                    "version": "1.1.1",
+                    "artifacts": [
+                        {
+                            "name": "geronimo-jms_1.1_spec",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\apache\\geronimo\\specs\\geronimo-jms_1.1_spec\\1.1.1\\geronimo-jms_1.1_spec-1.1.1.jar"
+                        },
+                        {
+                            "name": "geronimo-jms_1.1_spec",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\apache\\geronimo\\specs\\geronimo-jms_1.1_spec\\1.1.1\\geronimo-jms_1.1_spec-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-handler\\4.1.36.Final\\netty-handler-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-handler\\4.1.36.Final\\netty-handler-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.scopt",
+                    "name": "scopt_2.12",
+                    "version": "3.7.1",
+                    "artifacts": [
+                        {
+                            "name": "scopt_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\github\\scopt\\scopt_2.12\\3.7.1\\scopt_2.12-3.7.1.jar"
+                        },
+                        {
+                            "name": "scopt_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\github\\scopt\\scopt_2.12\\3.7.1\\scopt_2.12-3.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.eatthepath",
+                    "name": "fast-uuid",
+                    "version": "0.1",
+                    "artifacts": [
+                        {
+                            "name": "fast-uuid",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\eatthepath\\fast-uuid\\0.1\\fast-uuid-0.1.jar"
+                        },
+                        {
+                            "name": "fast-uuid",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\eatthepath\\fast-uuid\\0.1\\fast-uuid-0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.9.8",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.9.8\\jackson-databind-2.9.8.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.9.8\\jackson-databind-2.9.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler-proxy",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler-proxy",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-handler-proxy\\4.1.36.Final\\netty-handler-proxy-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler-proxy",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-handler-proxy\\4.1.36.Final\\netty-handler-proxy-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-common\\4.1.36.Final\\netty-common-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-common\\4.1.36.Final\\netty-common-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jodd",
+                    "name": "jodd-core",
+                    "version": "5.0.13",
+                    "artifacts": [
+                        {
+                            "name": "jodd-core",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-core\\5.0.13\\jodd-core-5.0.13.jar"
+                        },
+                        {
+                            "name": "jodd-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-core\\5.0.13\\jodd-core-5.0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.dongxiguo",
+                    "name": "fastring_2.12",
+                    "version": "1.0.0",
+                    "artifacts": [
+                        {
+                            "name": "fastring_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\dongxiguo\\fastring_2.12\\1.0.0\\fastring_2.12-1.0.0.jar"
+                        },
+                        {
+                            "name": "fastring_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\com\\dongxiguo\\fastring_2.12\\1.0.0\\fastring_2.12-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.12",
+                    "version": "1.1.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-parser-combinators_2.12\\1.1.2\\scala-parser-combinators_2.12-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-parser-combinators_2.12\\1.1.2\\scala-parser-combinators_2.12-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jodd",
+                    "name": "jodd-log",
+                    "version": "5.0.13",
+                    "artifacts": [
+                        {
+                            "name": "jodd-log",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-log\\5.0.13\\jodd-log-5.0.13.jar"
+                        },
+                        {
+                            "name": "jodd-log",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\jodd\\jodd-log\\5.0.13\\jodd-log-5.0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.suzaku",
+                    "name": "boopickle_2.12",
+                    "version": "1.3.1",
+                    "artifacts": [
+                        {
+                            "name": "boopickle_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\suzaku\\boopickle_2.12\\1.3.1\\boopickle_2.12-1.3.1.jar"
+                        },
+                        {
+                            "name": "boopickle_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\suzaku\\boopickle_2.12\\1.3.1\\boopickle_2.12-1.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-epoll",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-epoll",
+                            "classifier": "linux-x86_64",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-transport-native-epoll\\4.1.36.Final\\netty-transport-native-epoll-4.1.36.Final-linux-x86_64.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-charts",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-charts",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-charts\\3.1.2\\gatling-charts-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-charts",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-charts\\3.1.2\\gatling-charts-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-core_2.12",
+                    "version": "3.6.5",
+                    "artifacts": [
+                        {
+                            "name": "json4s-core_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-core_2.12\\3.6.5\\json4s-core_2.12-3.6.5.jar"
+                        },
+                        {
+                            "name": "json4s-core_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-core_2.12\\3.6.5\\json4s-core_2.12-3.6.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-graphite",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-graphite",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-graphite\\3.1.2\\gatling-graphite-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-graphite",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-graphite\\3.1.2\\gatling-graphite-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hdrhistogram",
+                    "name": "HdrHistogram",
+                    "version": "2.1.11",
+                    "artifacts": [
+                        {
+                            "name": "HdrHistogram",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\hdrhistogram\\HdrHistogram\\2.1.11\\HdrHistogram-2.1.11.jar"
+                        },
+                        {
+                            "name": "HdrHistogram",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\hdrhistogram\\HdrHistogram\\2.1.11\\HdrHistogram-2.1.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-swing_2.12",
+                    "version": "2.1.1",
+                    "artifacts": [
+                        {
+                            "name": "scala-swing_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-swing_2.12\\2.1.1\\scala-swing_2.12-2.1.1.jar"
+                        },
+                        {
+                            "name": "scala-swing_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\scala-lang\\modules\\scala-swing_2.12\\2.1.1\\scala-swing_2.12-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-dns",
+                    "version": "4.1.36.Final",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-dns",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-dns\\4.1.36.Final\\netty-codec-dns-4.1.36.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-dns",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\netty\\netty-codec-dns\\4.1.36.Final\\netty-codec-dns-4.1.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.gatling",
+                    "name": "gatling-core",
+                    "version": "3.1.2",
+                    "artifacts": [
+                        {
+                            "name": "gatling-core",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-core\\3.1.2\\gatling-core-3.1.2.jar"
+                        },
+                        {
+                            "name": "gatling-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\io\\gatling\\gatling-core\\3.1.2\\gatling-core-3.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.json4s",
+                    "name": "json4s-jackson_2.12",
+                    "version": "3.6.5",
+                    "artifacts": [
+                        {
+                            "name": "json4s-jackson_2.12",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-jackson_2.12\\3.6.5\\json4s-jackson_2.12-3.6.5.jar"
+                        },
+                        {
+                            "name": "json4s-jackson_2.12",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\adrian.petre01\\.m2\\repository\\org\\json4s\\json4s-jackson_2.12\\3.6.5\\json4s-jackson_2.12-3.6.5-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

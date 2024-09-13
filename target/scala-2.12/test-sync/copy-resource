@@ -1,0 +1,1 @@
+[[{"${BASE}/src/test/resources/gatling.conf":["${BASE}/target/scala-2.12/test-classes/gatling.conf"]},{"${BASE}/target/scala-2.12/test-classes/gatling.conf":["${BASE}/src/test/resources/gatling.conf"]}],{"${BASE}/src/test/resources/gatling.conf":{"file":"file:///C:/Users/adrian.petre01/Gatlin/GatlingProjectOne/src/test/resources/gatling.conf","lastModified":1725878939286}}]
